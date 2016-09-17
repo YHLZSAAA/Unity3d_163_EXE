@@ -1,0 +1,17 @@
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/obj/Debug/Assembly-CSharp.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/UnityEngine.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/UnityEditor.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/Mono.Cecil.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/Unity.DataContract.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXE/Temp/bin/Debug/Mono.Cecil.Mdb.dll
