@@ -81,6 +81,7 @@
 'Assets/Scripts/Copperhead.cs'
 'Assets/Scripts/Enemy.cs'
 'Assets/Scripts/EnemyRocket.cs'
+'Assets/Scripts/GameManager.cs'
 'Assets/Scripts/HandleEffort.cs'
 'Assets/Scripts/Rocket.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'

@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\Copperhead.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\EnemyRocket.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\HandleEffort.cs" />
      <Compile Include="Assets\Scripts\Rocket.cs" />
  <Reference Include="UnityEngine.Networking">

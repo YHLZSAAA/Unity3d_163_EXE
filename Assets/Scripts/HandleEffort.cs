@@ -18,6 +18,7 @@ public class HandleEffort : MonoBehaviour {
 
 	protected virtual void Start () {
 		print ("handleeffort start");
+		Debug.Log("I am alive!");
 		this.m_transform = this.transform;
 		this.m_audio = this.GetComponent<AudioSource>();
 	}
