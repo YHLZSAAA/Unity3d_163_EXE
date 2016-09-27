@@ -3,7 +3,7 @@ using System.Collections;
 using System.Threading;
 
 [AddComponentMenu("MyGame/Enemy")]
-public class Enemy : HandleEffort {
+public class Enemy : HandleExplosionEffect {
 
 	public float m_life = 10;
 
@@ -25,6 +25,9 @@ public class Enemy : HandleEffort {
 		if (obj != null) {
 			m_player = obj.transform;
 		}
+
+		//enabled = false;
+
 	}
 		
 	// Use this for initialization
@@ -35,6 +38,7 @@ public class Enemy : HandleEffort {
 
 	// Update is called once per frame
 	void Update () {
+		print ("enemy update");
 		m_fireTimer -= Time.deltaTime;
 
 		if (m_fireTimer <= 0) {
@@ -83,11 +87,19 @@ public class Enemy : HandleEffort {
 	void DestorySelf()
 	{
 
+
+		Debug.Log("sound by destory entry");
+		//m_audio.PlayOneShot(m_explosionAudio);
 		//for explosion
 		Instantiate (m_explosionFX, m_transform.position, Quaternion.identity);
-		m_audio.PlayOneShot(m_explosionAudio);
+
 		//GetComponent<ParticleSystem>().Emit(1); 
 		//GetComponent<ParticleSystem>().Play();
 		Destroy (this.gameObject);
+	}
+
+	void OnDestroy()
+	{
+
 	}
 }

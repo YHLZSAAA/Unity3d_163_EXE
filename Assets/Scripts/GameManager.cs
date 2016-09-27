@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour {
 	void Awake()
 	{
 		Instance = this;
+
 	}
 
 
@@ -51,7 +52,7 @@ public class GameManager : MonoBehaviour {
 
 		if (!m_audio.isPlaying) {
 			m_audio.clip = m_musicClip;
-			m_audio.Play ();
+			//m_audio.Play ();
 		}
 
 		if (Time.timeScale > 0 && Input.GetKeyDown(KeyCode.Escape)) {

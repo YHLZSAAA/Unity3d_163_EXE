@@ -5,10 +5,10 @@ using System.Collections;
 /// <summary>
 /// Handle for sound, blast etc.
 /// </summary>
-public class HandleEffort : MonoBehaviour {
+public class HandleExplosionEffect : MonoBehaviour {
 
 	#region Public obj
-	public AudioClip m_explosionAudio;
+	//public AudioClip m_explosionAudio;
 	public Transform m_explosionFX;
 	#endregion
 

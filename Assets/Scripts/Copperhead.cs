@@ -2,7 +2,7 @@
 using System.Collections;
 
 [AddComponentMenu("MyGame/Player")]
-public class Copperhead : HandleEffort {
+public class Copperhead : HandleExplosionEffect {
 
 	//protected Transform m_transform;
 
@@ -10,6 +10,7 @@ public class Copperhead : HandleEffort {
 	public float m_speed = 10;
 	public float rotspeed = 10;
 	public float m_life = 3;
+	public Transform enemyTrans;
 
 	public AudioClip m_shootClip;
 	//public Transform m_explosionFX;
@@ -38,12 +39,18 @@ public class Copperhead : HandleEffort {
 
 		//Get the main camera
 		m_camTransform = Camera.main.transform;
+		//Control to show log or not
+		Debug.logger.logEnabled = true;
 
 	}
-	
+
+	void FixedUpdate()
+	{
+		print ("Hello FixedUpdate");
+	}
 	// Update is called once per frame
 	void Update () {
-		//print ("Hello me");
+		Debug.Log ("Hello me ： " );
 
 
 		this.m_transform.Translate(new Vector3(0,0,0.5f)*Time.deltaTime);
@@ -68,6 +75,11 @@ public class Copperhead : HandleEffort {
 
 			}
 		}
+
+		if (null != this.enemyTrans) {
+			this.enemyTrans.LookAt (this.m_transform);
+
+		}
 	}
 
 
@@ -82,7 +94,7 @@ public class Copperhead : HandleEffort {
 				
 				//for explosion
 				Instantiate (m_explosionFX, m_transform.position, Quaternion.identity);
-				m_audio.PlayOneShot(m_explosionAudio);
+				//m_audio.PlayOneShot(m_explosionAudio);
 
 				Destroy (this.gameObject);
 			}
