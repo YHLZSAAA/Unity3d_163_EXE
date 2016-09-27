@@ -86,7 +86,7 @@ public class Copperhead : HandleExplosionEffect {
 	void OnTriggerEnter(Collider other)
 	{
 
-		if (other.tag.CompareTo("PlayerRocket") != 0) {
+		if (other.tag.CompareTo("EnemyRocket") == 0) {
 			m_life -= 1;
 			//print ("rocket hit player");
 			if (m_life <= 0) 
