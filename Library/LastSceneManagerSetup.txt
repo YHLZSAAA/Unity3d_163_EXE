@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/myhomework.unity
+- path: Assets/Demo/Scene/HeadControllerDemo.unity
   isLoaded: 1
   isActive: 1

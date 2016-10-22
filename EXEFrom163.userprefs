@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CanvasForEnd.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MyuGUICenterCross.cs" Line="10" Column="5" />
+      <File FileName="Assets/Scripts/Player.cs" Line="139" Column="6" />
+      <File FileName="Assets/Demo/Scripts/uGUICenterCross.cs" Line="1" Column="1" />
+      <File FileName="Assets/Demo/Scripts/uGUICrossNodeBase.cs" Line="1" Column="1" />
+      <File FileName="Assets/MojingSDK/Scripts/CrossPlatformInputManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CamRoot.cs" Line="17" Column="17" />
+      <File FileName="Assets/testactive.cs" Line="23" Column="1" />
+      <File FileName="Assets/CanvasForEnd.cs" Line="15" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jamesbear/Documents/MyUnity3d/WangYi163/EXEFrom163 2/EXEFrom163/Assets/CanvasForEnd.cs" line="15" column="61" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

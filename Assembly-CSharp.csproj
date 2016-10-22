@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{55F74A4E-BF47-A485-6291-762CC1113025}</ProjectGuid>
+    <ProjectGuid>{3AF9BEB4-E71A-E25D-4818-EFA1C9774E56}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -38,25 +38,91 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Copperhead.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\EnemyRocket.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\HandleExplosionEffect.cs" />
-     <Compile Include="Assets\Scripts\Rocket.cs" />
-     <Compile Include="Assets\Test.cs" />
- <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\CanvasForEnd.cs" />
+     <Compile Include="Assets\Demo\Scripts\ChangeGlassesDemo.cs" />
+     <Compile Include="Assets\Demo\Scripts\DelayDisable.cs" />
+     <Compile Include="Assets\Demo\Scripts\Demo.cs" />
+     <Compile Include="Assets\Demo\Scripts\GlassesList.cs" />
+     <Compile Include="Assets\Demo\Scripts\InputManagerBack.cs" />
+     <Compile Include="Assets\Demo\Scripts\InputManagerMenu.cs" />
+     <Compile Include="Assets\Demo\Scripts\InputManagerPayMenu.cs" />
+     <Compile Include="Assets\Demo\Scripts\MenuController.cs" />
+     <Compile Include="Assets\Demo\Scripts\MojingTextureBaker.cs" />
+     <Compile Include="Assets\Demo\Scripts\PayMenuController.cs" />
+     <Compile Include="Assets\Demo\Scripts\RulerController.cs" />
+     <Compile Include="Assets\Demo\Scripts\SetOverlayFPS.cs" />
+     <Compile Include="Assets\Demo\Scripts\ViewLock.cs" />
+     <Compile Include="Assets\Demo\Scripts\getParameter.cs" />
+     <Compile Include="Assets\Demo\Scripts\uGUICenterCross.cs" />
+     <Compile Include="Assets\Demo\Scripts\uGUICrossNodeBase.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\Callback.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\ConfigItem.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\GazeInputModule.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\InputSource.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\MobileInput.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\MojingInputManager.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\StandaloneInput.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\UnityInput.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\IntegrateInputManager\VirtualInput.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\LitJson\IJsonWrapper.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\LitJson\JsonData.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\LitJson\JsonException.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\LitJson\JsonMapper.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\LitJson\JsonReader.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\LitJson\JsonWriter.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\LitJson\Lexer.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\LitJson\ParserToken.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\Loom.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\Mojing.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\Mojing1stController.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\Mojing3rdCamera.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\Mojing3rdController.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\MojingEye.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\MojingKeyCode.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\MojingLog.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\MojingLoginPay.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\MojingRender.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\MojingReport.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\MojingSDK.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\MojingVRHead.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\PlaceCursor.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\Pose3D.cs" />
+     <Compile Include="Assets\MojingSDK\Scripts\SetOverlay.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\CamRoot.cs" />
+     <Compile Include="Assets\Scripts\DesByTime.cs" />
+     <Compile Include="Assets\Scripts\Enemy163.cs" />
+     <Compile Include="Assets\Scripts\GyroCtrl.cs" />
+     <Compile Include="Assets\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\MouseCtrl.cs" />
+     <Compile Include="Assets\Scripts\MyuGUICenterCross.cs" />
+     <Compile Include="Assets\Scripts\MyuGUICrossNodeBase.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts_Backup\Copperhead.cs" />
+     <Compile Include="Assets\Scripts_Backup\Enemy.cs" />
+     <Compile Include="Assets\Scripts_Backup\EnemyRocket.cs" />
+     <Compile Include="Assets\Scripts_Backup\GameManager.cs" />
+     <Compile Include="Assets\Scripts_Backup\HandleExplosionEffect.cs" />
+     <Compile Include="Assets\Scripts_Backup\Rocket.cs" />
+     <Compile Include="Assets\Scripts_Backup\Test.cs" />
+     <Compile Include="Assets\activeheader.cs" />
+     <Compile Include="Assets\testactive.cs" />
+     <None Include="Assets\Demo\Scripts\BackMesh.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
